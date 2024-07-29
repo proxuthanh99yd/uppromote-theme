@@ -1,0 +1,50 @@
+.get-started {
+  width: 100%;
+  height: 25.6875rem;
+  max-width: 74.375rem;
+  padding: 4.27rem 7.12rem;
+  position: relative;
+  margin: auto;
+  margin-top: 5.09rem;
+  margin-bottom: 5.04rem;
+  display: flex;
+}
+.get-started__wrapper {
+  flex: 1;
+  flex-basis: 50%;
+  position: relative;
+  --gap: calc(1.06rem / 2);
+}
+.get-started__wrapper--left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: var(--gap);
+  color: #fff;
+}
+.get-started__wrapper--right {
+  margin-left: var(--gap);
+  display: flex;
+  align-items: center;
+}
+.get-started__image {
+  height: 5.54rem;
+  width: auto;
+}
+.get-started__image:not(:last-child) {
+  margin-right: 1.01rem;
+}
+.get-started__background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+}
+.get-started__title {
+  max-width: 29.75rem;
+  margin-bottom: 0.75rem;
+}
+.get-started__button {
+  margin-top: auto;
+  align-self: self-start;
+}/*# sourceMappingURL=styles.css.map */

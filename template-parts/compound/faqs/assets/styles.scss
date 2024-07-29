@@ -1,0 +1,45 @@
+@import "../../../../assets/bootstrap/scss/functions";
+@import "../../../../assets/bootstrap/scss/variables";
+@import "../../../../assets/bootstrap/scss/variables-dark";
+@import "../../../../assets/bootstrap/scss/maps";
+@import "../../../../assets/bootstrap/scss/mixins";
+@import "../../../../assets/bootstrap/scss/utilities";
+
+@import "../../../../assets/bootstrap/scss/transitions";
+@import "../../../../assets/bootstrap/scss/accordion";
+
+.faqs {
+    max-width: 57.1rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 5rem;
+
+    --bs-border-radius: 1rem;
+    &__header {
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+    .accordion-item {
+        border-radius: 1rem;
+        --bs-accordion-bg: #f2f3f8;
+        --bs-accordion-btn-padding-y: 1.09rem;
+        --bs-accordion-btn-padding-x: 1.5rem;
+        --bs-accordion-btn-focus-box-shadow: none;
+        &:not(:last-child) {
+            margin-bottom: 0.75rem;
+        }
+        .accordion-button {
+            color: var(--text-text-oxford-blue-100-tiitle, var(--12-semi, #092c4c));
+            font-weight: 600;
+            line-height: 160%; /* 1.6rem */
+        }
+    }
+    .accordion-body {
+        --bs-accordion-body-padding-y: 0 1.5rem;
+        --bs-accordion-body-padding-x: 1.94rem 1.5rem;
+        color: var(--text-text-oxford-blue-high-emphasis-active-body-text-1, rgba(9, 44, 76, 0.87));
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 160%; /* 1.6rem */
+    }
+}

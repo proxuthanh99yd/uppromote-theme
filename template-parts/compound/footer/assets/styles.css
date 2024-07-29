@@ -1,0 +1,96 @@
+.footer__container {
+    width: 100%;
+    padding: 6.69rem 6.25rem 3rem;
+    background: #e1effb;
+    position: relative;
+    min-height: 49.25rem;
+    display: flex;
+}
+.footer__container * {
+    font-size: var(--font-size-sub1);
+}
+.footer__container .footer__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer__container .footer__col {
+    position: relative;
+    z-index: 1;
+    width: fit-content;
+}
+
+.footer__container .footer__col:not(:last-child) {
+    margin-right: 6rem;
+}
+
+.footer__container .footer__col.footer__col1 {
+    margin-right: 16.5rem;
+}
+
+.footer__container .footer__col1 .footer__col-logo {
+    width: 14rem;
+    height: 3.75rem;
+    object-fit: contain;
+    margin-bottom: 3.94rem;
+}
+
+.footer__container .footer__col1 .footer__des {
+    color: var(--Text-Text-grey-80, #252525);
+    font-weight: 400;
+    width: 20.75rem;
+    line-height: 150%;
+    margin-bottom: 1.5rem;
+    opacity: 0.7;
+}
+
+.footer__container .footer__contact {
+    margin-bottom: 1.5rem;
+}
+.footer__container .footer__header {
+    color: var(--Text-Text-grey-80, #252525);
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 0.00219rem;
+    margin-bottom: 0.75rem;
+}
+.footer__container .footer__content {
+    color: var(--Text-Text-grey-80, #252525);
+    line-height: 150%;
+    margin-bottom: var(--20);
+    opacity: 0.7;
+}
+
+.footer__container .footer__social-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer__container .footer__social-list .footer__social-item {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.625rem;
+    background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 0.02) 0%,
+            rgba(0, 0, 0, 0.02) 100%
+        ),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.02) 100%),
+        rgba(188, 199, 253, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+}
+.footer__container .footer__social-list .footer__social-item img {
+    width: 1.5rem;
+    height: 1.5rem;
+    object-fit: contain;
+}
+
+.footer__container .footer__group {
+    margin-bottom: 2rem;
+}
