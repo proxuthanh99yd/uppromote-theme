@@ -35,8 +35,10 @@ add_action('init', 'remove_query_strings');
 
 function custom_dequeue_styles()
 {
-    wp_dequeue_style('contact-form-7');
-    wp_dequeue_script('contact-form-7');
+    if (!is_page('contact')) {
+        wp_dequeue_style('contact-form-7');
+        wp_dequeue_script('contact-form-7');
+    }
     wp_dequeue_style('wp-emoji-styles');
     wp_dequeue_style('dashicons');
     wp_deregister_style('dashicons');
@@ -59,4 +61,3 @@ function remove_admin_bar()
     show_admin_bar(false);
     //     }
 }
-

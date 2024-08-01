@@ -27,7 +27,9 @@ function update_data($data)
 {
     ob_start();
     global $page_template;
-    get_template_part($page_template[$data['post_id']]);
+    if (isset($page_template[$data['post_id']])) {
+        get_template_part($page_template[$data['post_id']]);
+    }
     return ob_get_clean();
 }
 
