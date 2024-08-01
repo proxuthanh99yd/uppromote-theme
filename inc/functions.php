@@ -20,7 +20,7 @@ function set_default_featured_image_url($url, $post_id)
 add_filter('default_post_thumbnail_url', 'set_default_featured_image_url', 10, 2);
 
 $page_template = [
-    30126 => 'template-render/page-affiliate-marketing',
+    30136 => 'template-render/page-affiliate-marketing',
 ];
 
 function update_data($data)

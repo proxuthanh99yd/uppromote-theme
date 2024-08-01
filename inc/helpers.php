@@ -49,4 +49,3 @@ function paginate(array $params)
     ];
 }
 
-

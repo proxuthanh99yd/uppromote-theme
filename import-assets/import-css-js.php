@@ -17,6 +17,7 @@ function  wp_enqueue_local()
 	wp_enqueue_style('global', get_theme_file_uri('/assets/css/global.css'));
 	wp_enqueue_style('header', get_theme_file_uri('/template-parts/compound/header/assets/styles.css'));
 	wp_enqueue_style('footer', get_theme_file_uri('/template-parts/compound/footer/assets/styles.css'));
+
 	if (is_page('affiliate-marketing-2')) {
 		wp_enqueue_style('swiper', 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css');
 		wp_enqueue_script("swiper", 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js', [], false, true);
