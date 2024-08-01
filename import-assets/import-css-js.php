@@ -28,6 +28,18 @@ function  wp_enqueue_local()
 		wp_enqueue_script('affiliate-marketing', get_theme_file_uri('/template-parts/page-affiliate-marketing/assets/scripts.js'), [], false, true);
 	}
 
+	if(isMobileDevice()){
+		
+	}else{
+		if(is_front_page()){
+			wp_enqueue_style('banner-desktop', get_theme_file_uri('/template-parts/compound/banner-desktop/assets/style.css'));
+			wp_enqueue_style('most-entrusted', get_theme_file_uri('/template-parts/homepage/section-most-entrusted/assets/style.css'));
+			wp_enqueue_style('multi-purpose', get_theme_file_uri('/template-parts/homepage/section-multi-purpose/assets/style.css'));
+			wp_enqueue_style('partner-ship', get_theme_file_uri('/template-parts/homepage/section-partnership/assets/style.css'));
+			wp_enqueue_style('intergrations', get_theme_file_uri('/template-parts/homepage/section-intergrations/assets/style.css'));
+			wp_enqueue_style('get-started', get_theme_file_uri('/template-parts/compound/get-started/assets/styles.css'));
+		}
+	}
 	if (is_page('contact')) {
 		// wp_enqueue_script('page-contact', get_theme_file_uri('/template-parts/page-contact/assets/scripts.js'), [], false, true);
 
