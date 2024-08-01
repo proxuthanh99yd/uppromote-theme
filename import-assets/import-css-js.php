@@ -27,6 +27,13 @@ function  wp_enqueue_local()
 		wp_enqueue_style('affiliate-marketing', get_theme_file_uri('/template-parts/page-affiliate-marketing/assets/styles-pc.css'));
 		wp_enqueue_script('affiliate-marketing', get_theme_file_uri('/template-parts/page-affiliate-marketing/assets/scripts.js'), [], false, true);
 	}
+
+	if (is_page('contact')) {
+		// wp_enqueue_script('page-contact', get_theme_file_uri('/template-parts/page-contact/assets/scripts.js'), [], false, true);
+
+		wp_enqueue_script('jquery');
+		wp_enqueue_style('page-contact', get_theme_file_uri('/template-parts/page-contact/assets/styles.css'));
+	}
 }
 add_action('wp_enqueue_scripts', 'wp_enqueue_local', 1001);
 
