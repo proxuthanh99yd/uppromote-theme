@@ -21,6 +21,7 @@ add_filter('default_post_thumbnail_url', 'set_default_featured_image_url', 10, 2
 
 $page_template = [
     30136 => 'template-render/page-affiliate-marketing',
+    18823 => 'template-render/front-page'
 ];
 
 function update_data($data)
