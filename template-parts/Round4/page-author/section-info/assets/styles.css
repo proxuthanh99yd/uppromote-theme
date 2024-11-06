@@ -1,0 +1,107 @@
+#information {
+  width: 100%;
+  position: relative;
+}
+#information .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#information > .container__content {
+  padding: 7.56rem 0;
+}
+#information .information__content {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 5.63rem;
+}
+#information .information__content .content {
+  width: 42.0625rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+#information .information__content .content ul li {
+	color: var(--Text-Text-Oxford-Blue-100---Body);
+	font-size: var(--font-size-sub1);
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 0.00938rem;
+}
+#information .information__content .content > p {
+	color: var(--Text-Text-Oxford-Blue-87-body-text-1);
+	font-size: var(--font-size-sub1);
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	letter-spacing: 0.03125rem;
+}
+#information .information__content .content > p strong {
+	color: var(--Text-Text-Oxford-Blue-100---Body);
+	font-size: var(--font-size-H5);
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+#information .information__content .content > p:has(>strong){
+	letter-spacing: unset;
+}
+#information .information__content .title {
+  flex: 1;
+  margin-right: 9.88rem;
+  color: var(--Text-Text-Oxford-Blue-100---Body);
+  font-size: var(--font-size-H2);
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.01563rem;
+}
+#information .information__content .content li {
+  list-style-type: none;
+  display: flex;
+}
+#information .information__content .content li::before {
+  content: url("/wp-content/uploads/2024/09/Frame-1618872905.svg");
+  position: relative;
+  top: 0;
+  margin-right: 0.56rem;
+  display: block;
+}
+#information .image__deco {
+  width: 100%;
+  height: 37.32081rem;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 639px) {
+  #information > .container__content {
+    padding: 2rem 1.25rem;
+  }
+  #information .information__content {
+    flex-direction: column;
+    margin-bottom: 2.06rem;
+  }
+  #information .information__content .title {
+    margin-bottom: 1.5rem;
+  }
+  #information .information__content .content {
+    width: 100%;
+    color: var(--Text-Text-Oxford-Blue-87-body-text-1);
+    font-size: var(--font-size-sub1);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.03125rem;
+  }
+  #information .image__deco {
+    height: 24.9375rem;
+    border-radius: 0.625rem;
+  }
+	#information .information__content .content ul li{
+		margin-bottom: 0.5rem;
+	}
+}

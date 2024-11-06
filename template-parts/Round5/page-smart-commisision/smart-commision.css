@@ -1,0 +1,36 @@
+#banner .description__banner{
+	width: 45.22363rem;
+}
+#features .feature__container{
+	margin-bottom: 12.25rem;
+}
+#advanced .feature__container:nth-last-child(2){
+	margin-bottom: 0;
+}
+#most__entrusted .title__linear__gradient{
+	width: 100%;
+}
+.get-started__wrapper--left > p{
+	width: 34.8125rem;
+	margin-bottom: 2rem;
+}
+@media screen and (max-width: 639px){
+	#banner .description__banner{
+		width: 100%;
+	}
+	#features .feature__container:not(:nth-last-child(2)){
+		margin-bottom: 0;
+	}
+	.get-started-mb{
+		margin-top: 0;
+	}
+	#features .feature__container{
+		margin-bottom: 0;
+	}
+	.get-started__title ~ p.font-size-sub1{
+		padding: 0;
+	}
+	#further .container .further__group{
+		padding: 0 0.63rem;
+	}
+}

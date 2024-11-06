@@ -1,0 +1,92 @@
+/* banner */
+#banner .description__banner{
+	width: 45.22363rem;
+}
+#banner .box__img__people{
+	width: 38.041rem;
+	height: 27.59156rem;
+	transform: translatex(0);
+	top: 14.31rem;
+}
+/* end banner */
+#extra__profits ~ .uppromote-plan {
+	background: #F9F9FF;
+}
+#extra__profits ~ #most__entrusted{
+	background: linear-gradient(180deg, #F9F9FF 9.66%, #FFD9E3 100%);
+}
+#extra__profits ~ #most__entrusted .most__entrusted{
+	background: transparent;
+	margin-top: 2.75rem;
+}
+.most__entrusted .swiper-slide-next .overlay-blue{
+	background: linear-gradient(90deg, #F48BA4 0%, #FAAFC0 100%);
+}
+#extra__profits ~ #most__entrusted .title__linear__gradient{
+	width: 60.60644rem;
+}
+#extra__profits ~ #most__entrusted .overlay-blue{
+	background: linear-gradient(90deg, #F48BA4 0%, #FAAFC0 100%);
+}
+#extra__profits ~ #most__entrusted .most_entrusted__top .subtitle{
+	color: var(--text-text-oxford-blue-54);
+}
+#extra__profits ~ #most__entrusted .container_entrusted_item > .desc{
+	color: var(--Text-Text-Oxford-Blue-100---Body);
+}
+
+#fashion__brands ~  .uppromote-plan{
+	background: #f9f9ff;
+}
+#fashion__brands ~  .uppromote-plan .headline__description{
+	max-width: 68.875rem;
+}
+
+.uppromote-plan ~ #most__entrusted .title__linear__gradient{
+	width:  60.9rem;
+}
+.uppromote-plan ~ #most__entrusted .most__entrusted{
+	margin-top: 2.75rem;
+	background: transparent;
+}
+.uppromote-plan ~ #most__entrusted{
+	background: linear-gradient(180deg, rgba(212, 191, 255, 0.00) 0%, rgba(104, 64, 185, 0.10) 100%), #FFF;
+}
+.uppromote-plan ~ #most__entrusted .most__entrusted .swiper-slide-next .overlay-blue{
+	background: linear-gradient(85deg, #8770F8 39%, #A99AEF 102.4%);
+	box-shadow: 0px 3.932px 36.174px 0px rgba(100, 72, 231, 0.37);
+}
+.uppromote-plan ~ #most__entrusted .most__entrusted .overlay-blue{
+	background: linear-gradient(85deg, #8770F8 39%, #A99AEF 102.4%);
+}
+@media screen and (max-width: 639.9px){
+	#banner {
+		padding-bottom: 1.88rem;
+	}
+	#banner .box__img__people--mb{
+		height: 15.15275rem;
+		border-radius: 0.33738rem;
+	}
+	#banner .description__banner{
+		width: 100%;
+	}
+	#extra__profits ~ #most__entrusted .title__linear__gradient{
+		width: 100%;
+		padding: 0 1.25rem;
+	}
+	#extra__profits ~ #most__entrusted .most__entrusted__swiper .swiper-slide{
+		background: #fff;
+	}
+	#extra__profits ~ #most__entrusted .overlay-blue{
+		box-shadow: unset;
+	}
+	.uppromote-plan ~ #most__entrusted .title__linear__gradient{
+		width: 100%;
+	}
+	.uppromote-plan ~ #most__entrusted .most__entrusted{
+		margin-top: 1.25rem;
+	}
+	 #fashion__brands ~ .get-started-mb{
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,30 @@
+@media screen and (min-width: 640px){
+	#compare ~ #most__entrusted .title__linear__gradient br,
+	#feature-table h2 br,
+	#why-uppromote > .container h2 br{
+		display: none;
+	}
+	#why-uppromote > .container h2{
+		width: 60rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#feature-table h2{
+		width: 65.97069rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#compare ~ #most__entrusted .title__linear__gradient {
+		width: 55.60644rem;
+		padding-bottom: 0;
+	}
+}
+#compare ~ #most__entrusted .most__entrusted{
+	margin-top: 2.22rem;
+}
+@media screen and (max-width: 639px){
+	#compare ~ #most__entrusted .title__linear__gradient {
+		width: 100%;
+	}
+}
+

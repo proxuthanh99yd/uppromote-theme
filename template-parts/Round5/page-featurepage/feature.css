@@ -1,0 +1,38 @@
+#banner .description__banner{
+	width: 45.22363rem;
+}
+.uppromote-plan__inner .headline p{
+	max-width: 68.875rem;
+}
+#most__entrusted .overlay__left {
+	width: 75.375rem;
+	height: 33.5rem;
+	border-radius: 75.375rem;
+	background: rgba(182, 231, 248, 0.20);
+	filter: blur(150px);
+	position: absolute;
+	top: -50%;
+	left: -50%;
+}
+#most__entrusted .overlay__right {
+	width: 68rem;
+	height: 36.0625rem;
+	border-radius: 68rem;
+	background: rgba(0, 113, 245, 0.08);
+	filter: blur(100px);
+	position: absolute;
+	top: -20%;
+	right: -18rem;
+}
+@media screen and (max-width: 639px){
+	#banner .description__banner{
+		width: 100%;
+	}
+	.get-started-mb{
+		margin-top: 0;
+	}
+	#most__entrusted .overlay__left,
+	#most__entrusted .overlay__right {
+		display: none;
+	}
+}

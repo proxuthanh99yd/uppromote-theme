@@ -1,0 +1,53 @@
+/* banner */
+#banner .description__banner{
+	width: 41rem;
+}
+
+
+/* end banner */
+#extra__profits ~ .uppromote-plan {
+	background: #F9F9FF;
+}
+#extra__profits ~ #most__entrusted{
+	background: linear-gradient(180deg, #F9F9FF 9.66%, #FFD9E3 100%);
+}
+#extra__profits ~ #most__entrusted .most__entrusted{
+	background: transparent;
+	margin-top: 2.75rem;
+}
+.most__entrusted .swiper-slide-next .overlay-blue{
+	background: linear-gradient(90deg, #F48BA4 0%, #FAAFC0 100%);
+}
+#extra__profits ~ #most__entrusted .title__linear__gradient{
+	width: 60.60644rem;
+}
+#extra__profits ~ #most__entrusted .overlay-blue{
+	background: linear-gradient(90deg, #F48BA4 0%, #FAAFC0 100%);
+}
+#extra__profits ~ #most__entrusted .most_entrusted__top .subtitle{
+	color: var(--text-text-oxford-blue-54);
+}
+#extra__profits ~ #most__entrusted .container_entrusted_item > .desc{
+	color: var(--Text-Text-Oxford-Blue-100---Body);
+}
+.uppromote-plan__inner .headline p{
+	max-width: 100%;
+}
+@media screen and (max-width: 639.9px){
+	#banner {
+		padding-bottom: 1.88rem;
+	}
+	#banner .description__banner{
+		width: 100%;
+	}
+	#extra__profits ~ #most__entrusted .title__linear__gradient{
+		width: 100%;
+		padding: 0 1.25rem;
+	}
+	#extra__profits ~ #most__entrusted .most__entrusted__swiper .swiper-slide{
+		background: #fff;
+	}
+	#extra__profits ~ #most__entrusted .overlay-blue{
+		box-shadow: unset;
+	}
+}

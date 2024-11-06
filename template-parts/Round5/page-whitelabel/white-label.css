@@ -1,0 +1,27 @@
+#banner .description__banner{
+	width: 45.22363rem;
+}
+#features .feature__container{
+	margin-bottom: 12.25rem;
+}
+#white_label_feature #features .feature__container:nth-last-child(2){
+	margin-bottom: 0;
+}
+
+#most__entrusted{
+	background: linear-gradient(180deg, #F9F9FF 0%, #F3F8FF 100%), #FFF;
+}
+.most__entrusted{
+	background: transparent;
+}
+@media screen and (max-width: 639px){
+	#banner .description__banner{
+		width: 100%;
+	}
+	#features .feature__container:not(:nth-last-child(2)){
+		margin-bottom: 0;
+	}
+	.get-started-mb{
+		margin-top: 0;
+	}
+}

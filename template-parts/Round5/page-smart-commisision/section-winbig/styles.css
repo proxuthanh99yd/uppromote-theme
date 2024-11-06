@@ -1,0 +1,174 @@
+#smart__commission {
+  padding: 7rem 0;
+}
+#smart__commission > .background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+#smart__commission .container {
+  display: flex;
+  width: 83rem;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--outline-neutral-16, rgba(112, 115, 124, 0.16));
+}
+#smart__commission .content__left {
+  width: 42.53rem;
+  padding: 3.77rem 7.08rem 2.35rem 3.73rem;
+}
+#smart__commission .content__left .logo {
+  width: 8.65263rem;
+  height: 3.94419rem;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+#smart__commission .content__left > .title {
+  color: var(--Text-Text-Oxford-Blue-100---Body);
+  font-size: var(--font-size-H3);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0.75rem;
+}
+#smart__commission .content__left > .subtitle {
+  color: var(--Text-Text-Oxford-Blue-87-body-text-1);
+  font-size: var(--font-size-sub1);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0.03125rem;
+  margin-bottom: 0.5rem;
+}
+#smart__commission .content__left .list__commission {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+  margin-bottom: 1.56rem;
+}
+#smart__commission .content__left .commission__item {
+  display: flex;
+  align-items: center;
+}
+#smart__commission .content__left .commission__item > img {
+  width: 1.07313rem;
+  height: 1.07313rem;
+  object-fit: contain;
+  margin-right: 0.75rem;
+}
+#smart__commission .content__left .commission__item > p {
+  color: var(--Text-Text-Oxford-Blue-100---Body);
+  font-size: var(--font-size-sub1);
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.03125rem;
+}
+#smart__commission .content__right {
+  flex: 1;
+  position: relative;
+  padding: 0 7.81rem 1.55rem 2.54rem;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+#smart__commission .content__right > img.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+#smart__commission .content__right .subtitle {
+  color: var(--text-text-oxford-blue-0);
+  font-size: var(--font-size-sub1);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  letter-spacing: 0.03125rem;
+  position: relative;
+  z-index: 2;
+}
+#smart__commission .content__right .desc {
+  color: var(--text-text-oxford-blue-0);
+  font-size: var(--font-size-H4);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.00938rem;
+  position: relative;
+  z-index: 2;
+}
+#smart__commission .content__right .overlay {
+  position: absolute;
+  width: 100%;
+  height: 10.812rem;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgba(13, 8, 81, 0) 0%, #0d0851 100%);
+}
+@media screen and (max-width: 639.9px) {
+  #smart__commission {
+    padding: 4.22rem 1.22rem;
+  }
+  #smart__commission .container {
+    flex-direction: column;
+	width: 100%; 
+  }
+  #smart__commission .content__left {
+    width: 100%;
+    padding: 2.48rem 1.06rem 1.51rem;
+  }
+  #smart__commission .content__left .logo {
+    width: 6.85681rem;
+    height: 3.12556rem;
+    margin-bottom: 0.4rem;
+  }
+  #smart__commission .content__left > .title {
+    font-size: 1.68394rem;
+    margin-bottom: 0.59rem;
+  }
+  #smart__commission .container {
+    padding: 0;
+  }
+  #smart__commission .content__left > .subtitle {
+    font-size: 0.79244rem;
+    margin-bottom: 0.4rem;
+  }
+  #smart__commission .content__left .list__commission {
+    gap: 0.4rem;
+    margin-bottom: 1.24rem;
+  }
+  #smart__commission .content__left .commission__item > img {
+    width: 0.85038rem;
+    height: 0.85038rem;
+    margin-right: 0.59rem;
+  }
+  #smart__commission .content__left .commission__item > p {
+    font-size: 0.79244rem;
+    align-items: start;
+  }
+  #smart__commission .content__right {
+    height: 14.20744rem;
+    flex: unset;
+    padding: 0 4.08rem 1.87rem 1.91rem;
+  }
+  #smart__commission .content__right .subtitle {
+    font-size: 0.48113rem;
+  }
+  #smart__commission .content__right .desc {
+    font-size: 0.72169rem;
+    letter-spacing: 0.0045rem;
+  }
+  #smart__commission .content__right .overlay {
+    height: 8.568rem;
+  }
+}

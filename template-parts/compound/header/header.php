@@ -1,13 +1,17 @@
  <?php
     $option_header_logo = get_field('option_header_logo', 'option');
     $option_header_menu = get_field('option_header_menu', 'option');
+
     ?>
 
  <header class="header__container">
-     <div class="header__left">
-         <?php echo wp_get_attachment_image($option_header_logo, 'full', true, [
-                'class' => 'header__logo',
-            ]) ?>
+    <div class="container header__inner">
+		 <div class="header__left">
+			 <a href="/">
+				<?php echo wp_get_attachment_image($option_header_logo, 'full', true, [
+								'class' => 'header__logo',
+							]) ?>
+			 </a>
          <nav class="menu font-size-sub2">
              <ul class="menu__list">
                  <?php foreach ($option_header_menu as $menu) : ?>
@@ -19,6 +23,7 @@
                          </a>
                          <?php if (count($menu['submenu'] ? $menu['submenu'] : []) > 0) : ?>
                              <div style="
+									--cols: <?php echo count($menu['submenu']) ?>;
                                     --width: <?php echo !empty($menu['submenu_settings']['width']) ? $menu['submenu_settings']['width'] : 60 ?>rem;
                                     --top: <?php echo !empty($menu['submenu_settings']['top']) ? $menu['submenu_settings']['top'] : 2 ?>rem;
                                     --left: <?php echo !empty($menu['submenu_settings']['left']) ? $menu['submenu_settings']['left'] : 10 ?>rem;
@@ -91,10 +96,11 @@
      </div>
      <div class="header__right">
          <a href="/" class="btn-ghost btn-md header__btn1">
-             Start Shopify Trial
+             Start Shopify 
          </a>
-         <a class="btn-md btn-primary header__btn2">
+         <a href="/" class="btn-md btn-primary header__btn2">
              Try UpPromote FREE
          </a>
      </div>
+	 </div>
  </header>

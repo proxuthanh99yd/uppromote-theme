@@ -1,0 +1,8 @@
+#simple {
+	background: linear-gradient(180deg, #FFF 5%, #EDF4FA 100%);
+}
+@media screen and (max-width: 639px){
+	#features .container:first-child{
+		margin-bottom: 3rem;
+	}
+}

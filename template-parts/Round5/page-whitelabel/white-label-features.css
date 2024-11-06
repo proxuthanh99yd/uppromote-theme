@@ -1,0 +1,36 @@
+#white_label_feature {
+	background: linear-gradient(180deg, #FFF 5%, #F2F7FF 100%);
+}
+#features .overlay__deco_first{
+	width: 53.375rem;
+    height: 53.375rem;
+    border-radius: 50%;
+    opacity: 0.05;
+    background: radial-gradient(51.58% 52.11% at 51.25% 36.08%, #04CCF8 0%, #3A19FF 100%);
+    filter: blur(75px);
+    position: absolute;
+    top: 99rem;
+    left: -20%;
+}
+#features .overlay__deco_sec{
+	width: 53.375rem;
+    height: 53.375rem;
+    border-radius: 53.375rem;
+    opacity: 0.05;
+    background: radial-gradient(51.58% 52.11% at 51.25% 36.08%, #04CCF8 0%, #3A19FF 100%);
+    filter: blur(75px);
+    position: absolute;
+    top: 0;
+    right: -20%;
+}
+#features .overlay__deco_left{
+	width: 36.375rem;
+	height: 36.375rem;
+	border-radius: 36.375rem;
+	opacity: 0.1;
+	background: radial-gradient(219.92% 222.19% at 167.78% -4.98%, #5328FF 0%, #3DE1F7 100%);
+	filter: blur(250px);
+	position: absolute;
+    top: 0;
+    left: -10%;
+}

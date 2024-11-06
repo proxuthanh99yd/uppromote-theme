@@ -1,0 +1,83 @@
+.fashion-brands__item {
+  position: relative;
+  max-width: 69.06981rem;
+  max-height: 30.8125rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 0.625rem;
+  border: 1px solid #c4c6de;
+  background: #fff;
+  padding: 6.1rem 2.84rem 3.15rem 4.1rem;
+}
+.fashion-brands__item-logo {
+  position: absolute;
+  display: block;
+  top: 0.81rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14.418rem;
+  height: 5.13375rem;
+}
+.fashion-brands__item-logo img {
+  width: 100%;
+  height: 100%;
+}
+.fashion-brands__item-wrapper {
+  border-top: 1px solid #e7e7e7;
+  padding-top: 2.3125rem;
+  display: flex;
+}
+.fashion-brands__item-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.fashion-brands__item-title {
+  text-transform: uppercase;
+  font-size: var(--font-size-sub2);
+  font-weight: 500;
+  line-height: 160%; /* 1.4rem */
+  letter-spacing: 0.01563rem;
+  background: var(--Gradient-main, linear-gradient(330deg, #11dcfd -70.8%, #2871ff 22.01%, #1313c1 101.07%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.62rem;
+}
+.fashion-brands__item-description {
+  margin-bottom: 1.25rem;
+}
+.fashion-brands__item-link {
+  margin-top: auto;
+}
+.fashion-brands__item-right {
+  margin-left: 4.94rem;
+  width: 22.94338rem;
+  height: 19.08963rem;
+}
+.fashion-brands__item-right img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.625rem;
+}
+.fashion-brands__item-linear {
+  position: absolute;
+  display: block;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 0.85931rem;
+  border-radius: 0rem 0rem 0.4375rem 0.625rem;
+  background: linear-gradient(270deg, #11dcfd -7.24%, #2871ff 46.35%, #1313c1 102.43%);
+  box-shadow: 0px 3.932px 36.174px 0px rgba(100, 72, 231, 0.37);
+}
+.fashion-brands-pagination {
+  --swiper-pagination-color: #ff4e41;
+  --swiper-pagination-bullet-inactive-color: #8491bd;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  padding: 2.875rem 0 3.95rem;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=fashion-slide.css.map */

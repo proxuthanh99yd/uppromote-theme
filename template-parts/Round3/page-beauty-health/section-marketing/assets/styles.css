@@ -1,0 +1,93 @@
+#bt__marketing {
+  padding: 5.97rem 0;
+}
+#bt__marketing > .container {
+  display: flex;
+  justify-content: end;
+}
+#bt__marketing .content {
+  width: 77.3125rem;
+  display: inline-flex;
+  padding: 4.55125rem 3.56794rem 5.17625rem 25.625rem;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 0.61438rem;
+  background: linear-gradient(180deg, #ffb6c8 0%, #f7d1da 100%);
+  position: relative;
+  height: 27.625rem;
+}
+#bt__marketing .content > .title {
+  color: var(--Text-Text-Oxford-Blue-100---Body);
+  font-size: var(--font-size-H2);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.01563rem;
+  margin-bottom: 1.52rem;
+}
+#bt__marketing .content > .description {
+  color: var(--Text-Text-Oxford-Blue-100---Body);
+  font-size: var(--font-size-sub1);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.03125rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  width: 43.77575rem;
+}
+#bt__marketing .content > .decoration_left {
+  position: absolute;
+  top: 1.94rem;
+  left: -11.5rem;
+  width: 25.51175rem;
+  height: 23.74638rem;
+  border-radius: 0.625rem;
+  object-fit: cover;
+}
+#bt__marketing .content > .decoration_bottom {
+  position: absolute;
+  bottom: -1.24rem;
+  left: 10.55rem;
+  width: 10.83413rem;
+  height: 12.729rem;
+  border-radius: 0.625rem;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 639.9px){
+	#bt__marketing {
+		padding-top: 1.88rem;
+		padding-bottom: 6.38rem;
+	}
+	#bt__marketing .content{
+		width: 100%;
+		padding: 1.5rem;
+		height: 36.875rem;
+	}
+	#bt__marketing .content > .title{
+		margin-bottom: 1.25rem;
+	}
+	#bt__marketing .content > .description{
+		width: 100%;
+		color: var(--Text-Text-Oxford-Blue-87-body-text-1);
+	}
+	#bt__marketing .content > .decoration_left{
+		width: 12.70338rem;
+		height: 11.82431rem;
+		border-radius: 0.31119rem;
+		left: 1.5rem;
+		bottom: -4rem;
+		top: unset;
+	}
+	#bt__marketing .content > .decoration_bottom{
+		width: 6.159rem;
+		height: 8.8em;
+		border-radius: 0.35531rem;
+		bottom: -2rem;
+		right: 1.5rem;
+		object-fit: cover;
+		left: unset;
+	}
+}

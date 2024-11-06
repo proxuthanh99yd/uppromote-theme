@@ -1,0 +1,31 @@
+#banner .description__banner{
+	width: 45.9375rem;
+}
+.uppromote-plan__inner .headline p{
+	max-width: 100%;
+}
+#most__entrusted .title__linear__gradient{
+	width: 59.4375rem;
+}
+#most__entrusted{
+	background: #F7F6FF;
+}
+@media screen and (max-width: 639.9px) {
+    #banner {
+        height: fit-content;
+        padding-bottom: 1.88rem;
+    }
+	.get-started-mb{
+		background: #F5F5FB;
+		padding: 3.75rem 0;
+	}
+	#banner .description__banner{
+		width: 100%;
+	}
+	#most__entrusted{
+		background: linear-gradient(180deg, #F4FAFF 0%, #FFF 100%);
+	}
+	#most__entrusted .title__linear__gradient{
+		width: 20.9375rem;
+	}
+}

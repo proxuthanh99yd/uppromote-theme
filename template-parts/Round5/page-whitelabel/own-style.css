@@ -1,0 +1,14 @@
+#campaign .container > .headline{
+	width: 49rem;
+}
+@media screen and (min-width: 640px){
+	#campaign .container > .desc{
+		width: 45.57888rem;
+		margin-bottom: 8.62rem;
+	}
+}
+@media screen and (max-width: 639px){
+	#campaign .container > .headline{
+		width: 100%;
+	}
+}

@@ -1,0 +1,72 @@
+#empowerd {
+  padding-top: 5.66rem;
+  padding-bottom: 8rem;
+}
+#empowerd .container {
+  padding: 7.41rem 5.13rem 7.41rem 42.7rem;
+  position: relative;
+  border-radius: 1rem;
+  background: linear-gradient(85deg, #8770f8 39%, #a99aef 102.4%);
+}
+#empowerd .container .empowerd__img_large {
+  position: absolute;
+  width: 28.53344rem;
+  height: 26.14356rem;
+  border-radius: 0.625rem;
+  left: 2.39rem;
+  bottom: -2.87rem;
+  object-fit: cover;
+}
+#empowerd .container .empowerd__img_small {
+  width: 12.88806rem;
+  height: 12.729rem;
+  border-radius: 0.625rem;
+  position: absolute;
+  bottom: -2.6rem;
+  left: 25.66rem;
+  object-fit: cover;
+}
+#empowerd .container .content {
+  color: #fff;
+  font-size: var(--font-size-H2);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.01563rem;
+}
+#empowerd .container .content strong {
+  color: var(--Text-Text-Oxford-Blue-87-body-text-1);
+  background: #b3eaec;
+  border-radius: 0.625rem;
+  padding: 0 0.5rem;
+  position: relative;
+  display: inline-block;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 639.9px) {
+  #empowerd {
+    padding: 1.88rem 1.5rem 3.75rem;
+  }
+  #empowerd .container {
+    padding: 1.5rem 0.5rem 14rem 0.5rem;
+  }
+  #empowerd .container .content strong {
+    padding: 0 0.3rem;
+  }
+  #empowerd .container .empowerd__img_large {
+    width: 14.77963rem;
+    height: 13.54175rem;
+    bottom: -2rem;
+    left: 1.5rem;
+    border-radius: 0.32375rem;
+  }
+  #empowerd .container .empowerd__img_small {
+    width: 6.67569rem;
+    height: 6.59331rem;
+    border-radius: 0.32375rem;
+    bottom: -1.8rem;
+    right: 1.5rem;
+    left: unset;
+  }
+}

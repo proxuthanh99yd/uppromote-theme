@@ -1,0 +1,51 @@
+#banner .box__img__people{
+	transform: translatex(0);
+}
+#banner .description__banner{
+	width: 44.125rem;
+}
+#most__entrusted .most__entrusted{
+	margin-top: 2.75rem;
+	background: transparent;
+}
+#most__entrusted{
+	background: linear-gradient(180deg, #F9F9FF 0%, #EEF8CC 100%), #FFF;
+}
+
+#most__entrusted .overlay-blue{
+	background: linear-gradient(89deg, #BBE33C 5.75%, #E7F8B3 124.45%);
+	box-shadow: unset;
+}
+.uppromote-plan__inner .headline p{
+	max-width: 100%;
+}
+@media screen and (max-width: 639px){
+	#banner{
+		padding-bottom: 1.88rem;
+	}
+	#banner .description__banner{
+		width: 100%;
+	}
+	#banner .box__img__people--mb{
+		height: 15.12794rem;
+	}
+	#most__entrusted .title__linear__gradient{
+		padding: 3.12rem 1.25rem 2.5rem;
+	}
+	#most__entrusted .most__entrusted,
+	.get-started-mb{
+		margin-top: 0;
+	}
+	#most__entrusted{
+		background: linear-gradient(180deg, #F9F9FF 0%, #EEF8CC 100%), #FFF;
+	}
+	#most__entrusted .most__entrusted__swiper .swiper-slide{
+		background: #FFF;
+	}
+	#most__entrusted .most__entrusted__swiper .swiper-slide-active{
+		box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+	}
+	#most__entrusted .title__linear__gradient{
+		width: 80%;
+	}
+}

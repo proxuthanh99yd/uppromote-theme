@@ -1,0 +1,80 @@
+#simplify{
+	padding: 6rem 0 9.15rem 0;
+	position: relative;
+}
+#simplify .simplify-background{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+#simplify h2{
+	text-align: center;
+	margin-bottom: 4.44rem;
+}
+#simplify .feature__container:nth-child(even){
+	flex-direction: row-reverse;
+}
+#simplify .feature-1 .feature__right{
+	width: 38.875rem;
+	height: 23.5625rem;
+}
+#simplify .feature__container{
+	margin-bottom: 12.25rem;
+}
+#simplify .feature__container:last-child{
+	margin-bottom: 0;
+}
+#simplify .feature-2 .feature__right{
+	width: 34.3125rem;
+	height: 23.4375rem;
+}
+#simplify .feature-3 .feature__right{
+	width: 39.3125rem;
+	height: 28.77294rem;
+}
+#simplify .feature-4 .feature__right{
+	width: 37.375rem;
+	height: 24.625rem;
+}
+#simplify .feature-5 .feature__right{
+	width: 39.80275rem;
+	height: 21.54031rem;
+}
+#faqs{
+	background: var(--Background-Normal-Linear, linear-gradient(180deg, #F2F7FF 0%, #FFF 100%));
+}
+
+@media screen and (max-width: 639px){
+	#simplify{
+		padding: 3rem 0 0 0;
+	}
+	#simplify .container.features {
+		padding: 0;
+	}
+	#simplify h2{
+		margin-bottom: 3rem;
+	}
+	
+	#simplify .feature__container{
+		background: linear-gradient(180deg, #EFF6FF 42.06%, #FFF 100%), linear-gradient(180deg, #F0F7FF 42%, #FFF 100%);
+		margin-bottom: 0;
+		padding: 3rem 0;
+		flex-direction: column-reverse;
+	}
+	#simplify  .feature__left{
+		padding: 1.5rem 1.25rem;
+	}
+	#simplify .feature__right{
+		width: 100% !important;
+		height: 14.375rem !important;
+	}
+	#simplify .feature__container:nth-child(even){
+		flex-direction: column-reverse;
+	}
+	#faqs {
+		background: #fff;
+	}
+}

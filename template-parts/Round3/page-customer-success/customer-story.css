@@ -1,0 +1,13 @@
+.get-started .get-started__wrapper--left > p{
+	width: 26.375rem;
+} 
+@media screen and (max-width: 639px){
+	.get-started-mb{
+		margin-top: 0;
+		padding: 3.75rem 0;
+		background: #F5F5FB;
+	}
+	.get-started .get-started__wrapper--left > p{
+		width: 100%;
+	}
+}

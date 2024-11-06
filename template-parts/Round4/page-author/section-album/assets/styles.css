@@ -1,0 +1,58 @@
+#album__about {
+  padding: 5rem 0;
+  background: #eaf2ff;
+}
+#album__about .container {
+  position: relative;
+  display: flex;
+  gap: 2.88rem;
+}
+#album__about .container h2 {
+  width: 33.3015rem;
+  color: var(--Text-Text-Oxford-Blue-100---Body);
+  font-size: var(--font-size-H2);
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.01563rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#album__about .album__about_col1,
+#album__about .album__about_col2,
+#album__about .album__about_col3 {
+  display: flex;
+  gap: 2.5rem;
+  width: 27.25rem;
+  flex-direction: column;
+  justify-content: end;
+}
+#album__about .album__about_col1 > img,
+#album__about .album__about_col2 > img,
+#album__about .album__about_col3 > img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.625rem;
+}
+#album__about .album__about_col1 > img:first-child,
+#album__about .album__about_col2 > img:first-child,
+#album__about .album__about_col3 > img:first-child {
+  height: 25.8125rem;
+  background: linear-gradient(
+    0deg,
+    rgba(24, 109, 206, 0.17) 0%,
+    rgba(24, 109, 206, 0.17) 100%
+  );
+}
+#album__about .album__about_col1 > img:last-child {
+  height: 50.9375rem;
+}
+#album__about .album__about_col2 > img:last-child {
+  height: 58.625rem;
+}
+#album__about .album__about_col3 > img:nth-child(2) {
+  height: 45.1875rem;
+}
+#album__about .album__about_col3 > img:last-child {
+  height: 20.4375rem;
+}

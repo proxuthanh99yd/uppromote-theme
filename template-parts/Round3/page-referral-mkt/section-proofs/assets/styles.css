@@ -1,0 +1,99 @@
+#proofs {
+  padding: 8.88rem 0;
+}
+
+#proofs .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+#proofs .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#proofs .container > .title {
+  margin-bottom: 2.5rem;
+}
+#proofs .proof__group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.83rem;
+}
+#proofs .proof__group .proof__item {
+  border-radius: 0.625rem;
+  /* border: 1px solid var(--outline-alternative-8); */
+  padding: 0 2.75rem;
+  display: flex;
+  height: 19.875rem;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+/* #proofs .proof__group .proof__item > img:first-child {
+  display: none;
+} */
+#proofs .proof__group .proof__item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+#proofs .proof__group .proof__item .quantity {
+  color: var(--Text-Text-Oxford-Blue-100---Body);
+  font-size: var(--font-size-H1);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  text-transform: capitalize;
+}
+#proofs .proof__group .proof__item .subtitle {
+  color: var(--Text-Text-Oxford-Blue-72-text-2);
+  font-size: var(--font-size-H6);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media screen and (max-width: 639px) {
+  #proofs {
+    padding: 2rem 0;
+  }
+  #proofs .container > .title {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  #proofs .proof__group {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    width: 100%;
+  }
+  #proofs .proof__group .proof__item {
+    height: 5.9375rem;
+    padding: 0 2rem;
+  }
+/*   #proofs .proof__group .proof__item > img:first-child {
+    display: block;
+  }
+  #proofs .proof__group .proof__item > img:nth-child(2) {
+    display: none;
+  } */
+  #proofs .proof__group .proof__item .quantity {
+    font-size: var(--font-size-H2);
+  }
+  #proofs .proof__group .proof__item .subtitle {
+    font-size: var(--font-size-H5);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+}

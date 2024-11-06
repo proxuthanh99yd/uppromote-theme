@@ -1,0 +1,14 @@
+#simple {
+	background: linear-gradient(180deg, #FFF 5%, #EDF4FA 100%);
+}
+#features h2{
+	width: 64rem;
+}
+@media screen and (max-width: 639px){
+	#features h2{
+		width: 100%;
+	}
+	#features .container:first-child{
+		margin-bottom: 3rem;
+	}
+}
